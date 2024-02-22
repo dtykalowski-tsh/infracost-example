@@ -1,25 +1,25 @@
 resource "aws_route53_zone" "api_dev" {
-  name = "dev.statz.co"
+  name = ""
 }
 
 resource "aws_route53_zone" "api_stage" {
-  name = "stage.statz.co"
+  name = ""
 }
 
 resource "aws_route53_zone" "api_prod" {
-  name = "prod.statz.co"
+  name = ""
 }
 
 resource "aws_route53_zone" "cf_dev" {
-  name = "dev.gamecity.co"
+  name = ""
 }
 
 resource "aws_route53_zone" "cf_stage" {
-  name = "stage.gamecity.co"
+  name = ""
 }
 
 resource "aws_route53_zone" "cf_prod" {
-  name = "prod.gamecity.co"
+  name = ""
 }
 
 resource "aws_route53_record" "api_dev_acm" {
